@@ -39,7 +39,7 @@
 }
 
 .counter__text>em {
-
+    font-style: normal;
     font-weight: bold;
     padding: 0 2rem;
     font-size: 1.3rem;
