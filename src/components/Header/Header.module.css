@@ -37,3 +37,10 @@
 .counter__button:hover {
     filter: brightness(0.9);
 }
+
+.counter__text>em {
+
+    font-weight: bold;
+    padding: 0 2rem;
+    font-size: 1.3rem;
+}

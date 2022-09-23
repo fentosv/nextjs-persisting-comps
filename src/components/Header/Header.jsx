@@ -20,7 +20,10 @@ export default function Header() {
           <button className={styles.counter__button} onClick={increment}>
             +1
           </button>
-          {count} {'<-'} I can persist between pages
+          <div className={styles.counter__text}>
+            <em>{count}</em>
+            {'<-'} I can persist between pages, but I am rerendering :(
+          </div>
         </div>
       </header>
     </>
